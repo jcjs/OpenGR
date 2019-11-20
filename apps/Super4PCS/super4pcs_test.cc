@@ -303,7 +303,7 @@ int main(int argc, char **argv) {
           auto set2_point2 = getExtlib2Points(set2);
 
           score = computeAlignment<MatcherType, PointAdapter> (options, logger, set1_point2, set2_point2, mat, sampler, visitor);
-          
+
           // deallocate memory for points2
           if(!set1_point2.empty()) {
             delete[] set1_point2.front().posBuffer;

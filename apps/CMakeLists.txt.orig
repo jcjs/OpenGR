@@ -1,0 +1,9 @@
+project (OpenGR-Demos)
+
+add_subdirectory(Super4PCS)
+<<<<<<< HEAD
+add_subdirectory(ExtPointBinding)
+add_subdirectory(MeshlabPlugin)
+=======
+>>>>>>> 9f6892f... Remove Meshlab demo as Meshlab is not maintained anymore
+add_subdirectory(PCLWrapper)
